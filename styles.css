@@ -1,16 +1,174 @@
-body {
-    background-color: gainsboro;
-}
-table, td {
-    border: 2px solid black;
+table {
     border-collapse: collapse;
-    font-family: Arial;
-    font-size: 12px;
-    padding: 10px;
-    background-color: white;
-    border-color: black;
+    width: 724px; 
+    height: 1024px; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
+td, th {
+    border: 1px solid transparent;
+    padding: 8px;
+    text-align: center;
+}
 
+.avatar-cell {
+    width: 320px;
+    height: 234px;
+    background-color: #c4c7ce;
+    padding: 0;
+}
 
+.avatar-img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+}
 
+.second-column {
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.inner-table {
+    width: 100%;
+    height: 100%;
+}
+
+.main-header {
+    font-size: 40px;
+    font-weight: 1000;
+    color: #23201d;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.sub-header {
+    font-size: 20px;
+    font-weight: 600;
+    color: #23201d;
+    text-align: left;
+    vertical-align: top;
+}
+
+.objective-header {
+    font-size: 25px;
+    font-weight: 800;
+    color: #c72f3c;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.objective-body {
+    font-size: 16px;
+    font-weight: 500;
+    color: #23201d;
+    text-align: justify;
+    vertical-align: top;
+}
+
+.work-experience-header {
+    font-size: 25px;
+    font-weight: 800;
+    color: #c72f3c;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.work-experience-subheader {
+    font-size: 16px;
+    font-weight: 600;
+    color: #23201d;
+    text-align: left;
+    vertical-align: top;
+}
+
+.work-experience-body {
+    font-size: 16px;
+    font-weight: 500;
+    color: #23201d;
+    text-align: justify;
+    vertical-align: top;
+}
+
+.academic-background-header {
+    font-size: 25px;
+    font-weight: 800;
+    color: #c72f3c;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.academic-background-subheader {
+    font-size: 16px;
+    font-weight: 600;
+    color: #23201d;
+    text-align: left;
+    vertical-align: top;
+}
+
+.academic-background-body {
+    font-size: 16px;
+    font-weight: 500;
+    color: #23201d;
+    text-align: justify;
+    vertical-align: top;
+}
+
+.first-column {
+    background-color: #c72f3c;
+    color: white;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.contact-header {
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.contact-body {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-align: left;
+    vertical-align: top;
+}
+
+.interests-header {
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.interests-body {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-align: left;
+    vertical-align: top;
+}
+
+.achievements-header {
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.achievements-body {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-align: left;
+    vertical-align: top;
+}
